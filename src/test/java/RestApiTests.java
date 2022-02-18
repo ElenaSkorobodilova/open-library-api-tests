@@ -14,7 +14,7 @@ public class RestApiTests {
 
     @Test
     @AllureId("7357")
-    @DisplayName("Solr query. Language. Поиск книг у автора на русском языке")
+    @DisplayName("Solr query. Language. Поиск книг автора на русском языке")
     @Owner("allure8")
     void solrQueryLanguageRu() {
         step("Ищем информацию об авторе по запросу q=author:lukyanenko&language:rus", () ->
@@ -31,7 +31,7 @@ public class RestApiTests {
     }
 
     @Test
-    @DisplayName("Solr query. Language. Поиск книг у автора на английском языке")
+    @DisplayName("Solr query. Language. Поиск книг автора на английском языке")
     @Owner("allure8")
     void solrQueryLanguageEn() {
         step("Ищем информацию об авторе по запросу q=author:lukyanenko&language:en", () ->
@@ -251,7 +251,7 @@ public class RestApiTests {
     }
 
     @Test
-    @DisplayName("Поиск книги у автора по фамилии и имени автора. Обычный поиск")
+    @DisplayName("Поиск книги по фамилии и имени автора. Обычный поиск")
     @Owner("allure8")
     public void searchBookInResulListOnAuthorFirstAndLastName() {
         step("Ищем информацию об авторе по запросу author=Sergei Lukyanenko", () ->
