@@ -1,5 +1,4 @@
-import io.qameta.allure.AllureId;
-import io.qameta.allure.Owner;
+import io.qameta.allure.*;
 import model.FullResponse;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -14,6 +13,9 @@ public class RestApiTests {
 
     @Test
     @AllureId("7357")
+    @Feature("Solr query")
+    @Story("Language")
+    @Story("Author")
     @DisplayName("Solr query. Language. Поиск книг автора на русском языке")
     @Owner("allure8")
     void solrQueryLanguageRu() {
@@ -31,6 +33,9 @@ public class RestApiTests {
     }
 
     @Test
+    @Feature("Solr query")
+    @Story("Language")
+    @Story("Author")
     @DisplayName("Solr query. Language. Поиск книг автора на английском языке")
     @Owner("allure8")
     void solrQueryLanguageEn() {
@@ -48,6 +53,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7356")
+    @Feature("Solr query")
+    @Story("Person")
     @DisplayName("Solr query. Person. Поиск книг о заданной персоне")
     @Owner("allure8")
     public void searchBookAboutPerson() {
@@ -65,6 +72,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7351")
+    @Feature("Query")
+    @Story("Title")
     @DisplayName("Поиск по части названия книги. Обычный поиск")
     @Owner("allure8")
     public void test2() {
@@ -82,6 +91,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7354")
+    @Feature("Solr query")
+    @Story("Place")
     @DisplayName("Solr query. Place. Поиск книг о заданном месте")
     @Owner("allure8")
     public void searchBooksAboutPlace() {
@@ -99,6 +110,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7358")
+    @Feature("Solr query")
+    @Story("Publisher")
     @DisplayName("Solr query. Publisher. Поиск книг по издателю")
     @Owner("allure8")
     public void searchBookOfPublisher() {
@@ -116,6 +129,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7355")
+    @Feature("Solr query")
+    @Story("Subject")
     @DisplayName("Solr query. Subject. Поиск книг на заданную тему")
     @Owner("allure8")
     public void searchBooksAboutSubject() {
@@ -133,6 +148,9 @@ public class RestApiTests {
 
     @Test
     @AllureId("7353")
+    @Feature("Query")
+    @Story("Title")
+    @Story("Author")
     @DisplayName("Обычный поиск. Полное наименование книги и имя-фамилия автора")
     @Owner("allure8")
     public void searchBookForAuthorFullNameAndFullTitle() {
@@ -150,6 +168,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7349")
+    @Feature("Solr query")
+    @Story("Title")
     @DisplayName("Поиск по полному названию книги. Solr query")
     @Owner("allure8")
     public void solrQueryOnFullBookName() {
@@ -167,6 +187,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7348")
+    @Feature("Query")
+    @Story("Title")
     @DisplayName("Поиск по полному названию книги. Обычный поиск")
     @Owner("allure8")
     public void searchOnFullBookName() {
@@ -184,6 +206,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7345")
+    @Feature("Solr query")
+    @Story("Author")
     @DisplayName("Поиск по фамилии автора. Solr query")
     @Owner("allure8")
     public void searchSolrQueryOnAuthorLastName() {
@@ -201,6 +225,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7344")
+    @Feature("Query")
+    @Story("Author")
     @DisplayName("Поиск по фамилии автора. Обычный поиск")
     @Owner("allure8")
     public void searchOnAuthorLastName() {
@@ -218,6 +244,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7347")
+    @Feature("Solr query")
+    @Story("Author")
     @DisplayName("Поиск по фамилии и имени автора. Solr query")
     @Owner("allure8")
     public void test12() {
@@ -235,6 +263,8 @@ public class RestApiTests {
 
     @Test
     @AllureId("7346")
+    @Feature("Query")
+    @Story("Author")
     @DisplayName("Поиск по фамилии и имени автора. Обычный поиск")
     @Owner("allure8")
     public void searchOnAuthorFirstAndLastName() {
@@ -251,6 +281,8 @@ public class RestApiTests {
     }
 
     @Test
+    @Feature("Query")
+    @Story("Author")
     @DisplayName("Поиск книги по фамилии и имени автора. Обычный поиск")
     @Owner("allure8")
     public void searchBookInResulListOnAuthorFirstAndLastName() {
