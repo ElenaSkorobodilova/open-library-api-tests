@@ -45,8 +45,6 @@ gradle clean test
 ## Отчёты о результатах сборок, списки тесткейсов, аналитические dashboards хранятся в Allure TestOps
 > <a target="_blank" href="https://allure.autotests.cloud/project/1021/dashboards">Сссылка на проект в AllureTestOps</a> (запрос доступа admin@qa.guru)
 
-https://allure.autotests.cloud/project/1021/dashboards/1961
-
 ### Итоговые dashboard по результатам сборок
 ![This is an image](/images/dashboard_overview.png)
 ![This is an image](/images/statistics_dashboard.png)
