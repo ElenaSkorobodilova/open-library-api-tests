@@ -47,8 +47,20 @@ gradle clean test
 
 https://allure.autotests.cloud/project/1021/dashboards/1961
 
-### Тест-планы проекта
-![This is an image](/images/testplans.png)
-### Кейсы тест-плана выполнения ручного тестирования
-![This is an image](/images/manual.png)
-### Кейсы тест-плана выполнения автотестирования
+### Итоговые dashboard по результатам сборок
+![This is an image](/images/dashboard_overview.png)
+![This is an image](/images/statistics_dashboard.png)
+### Список кейсов в отчёте Allure с разбивкой по Features и Stories
+![This is an image](/images/allure_report_features2.png)
+### Пример просмотра информации о запуске конкретного launcher
+![This is an image](/images/allure_dashboard_summary.png)
+![This is an image](/images/grafics.png)
+![This is an image](/images/timeline.png)
+![This is an image](/images/launcer_result.png)
+
+## Настроено автоматическое оповещение о результатах сборки Jenkins в Telegram-бот
+![This is an image](/images/bot-notofocation.png)
+
+
+:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
+:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
