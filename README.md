@@ -42,3 +42,13 @@ gradle clean test
 
 Для запуска тестов выбрать пункт "Собрать сейчас"
 
+# Отчёты о результатах сборки, списки тесткейсов, аналитические dashboards хранятся в Allure TestOps
+> <a target="_blank" href="https://allure.autotests.cloud/project/1021/dashboards">Сссылка на проект в AllureTestOps</a> (запрос доступа admin@qa.guru)
+
+https://allure.autotests.cloud/project/1021/dashboards/1961
+
+### Тест-планы проекта
+![This is an image](/images/testplans.png)
+### Кейсы тест-плана выполнения ручного тестирования
+![This is an image](/images/manual.png)
+### Кейсы тест-плана выполнения автотестирования
