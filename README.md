@@ -59,7 +59,7 @@ https://allure.autotests.cloud/project/1021/dashboards/1961
 ![This is an image](/images/launcer_result.png)
 
 ## Настроено автоматическое оповещение о результатах сборки Jenkins в Telegram-бот
-![This is an image](/images/bot-notofocation.png)
+![This is an image](/images/bot.png)
 
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
