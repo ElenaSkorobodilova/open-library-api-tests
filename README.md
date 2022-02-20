@@ -1,10 +1,12 @@
 # open-library-api-tests
 ![This is an image](/icons/Java.png)![This is an image](/icons/Gradle.png)![This is an image](/icons/Rest-Assured.png)![This is an image](/icons/Intelij_IDEA.png)![This is an image](/icons/JUnit5.png)![This is an image](/icons/Allure_Report.png)![This is an image](/icons/AllureTestOps.png)
 ## Описание проекта
-Учебный проект реализации автотестирования **Rest Api**.<br/></br>
-В качестве объекта тестирование выбран сайт https://openlibrary.org/ с открытым api.<br/></br>
-Сайт позволяет получать информацию о книгах в разрезе данных по автору, названию, теме, году издания, издателю, языках публикаций и прочем.
+Учебный проект реализации автотестирования **Rest Api**.<br/>
+>В качестве объекта тестирование выбран сайт https://openlibrary.org/ с открытым api.<br/>
+
 ![This is an image](/images/open-library.png)
+
+Сайт позволяет получать информацию о книгах по автору, названию, теме, году издания, издателю, языках публикаций и прочем.
 
 #### Список проверок, реализованных в автотестах
 Сайт поволяет искать ифнормацию по двум видам запросов: обычном и solr-query. Поэтому для тесткейсов настроены две Feautures: Query, Solr query.
