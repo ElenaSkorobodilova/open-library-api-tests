@@ -2,7 +2,7 @@
 ![This is an image](/icons/Java.png)![This is an image](/icons/Gradle.png)![This is an image](/icons/Rest-Assured.png)![This is an image](/icons/Intelij_IDEA.png)![This is an image](/icons/JUnit5.png)![This is an image](/icons/Allure_Report.png)![This is an image](/icons/AllureTestOps.png)![This is an image](/icons/Telegram.png)
 ## Описание проекта
 Учебный проект реализации автотестирования **Rest Api**.<br/>
->В качестве объекта тестирование выбран сайт https://openlibrary.org/ с открытым api.<br/>
+>В качестве объекта тестирования выбран сайт https://openlibrary.org/ с открытым api.<br/>
 
 ![This is an image](/images/open-library.png)
 
