@@ -47,7 +47,12 @@ gradle clean test
 
 ### Итоговые dashboard по результатам сборок
 ![This is an image](/design/images/dashboard_overview.png)
+### Аналитическая dashboard с разбивкой кейсов по Features и Stories
 ![This is an image](/design/images/statistics_dashboard.png)
+Приведена общая статистика по запускам, рейтинги тестов по AccessRate и длительности выполнения.<br/>
+Отдельно сгруппированы результаты по:
+- видам поиска (Feature = Query, Solr query)
+- объектам поиска (Story = Author, Person, Title, Place, Publisher, Subject)
 ### Список кейсов в отчёте Allure с разбивкой по Features и Stories
 ![This is an image](/design/images/allure_report_features2.png)
 ### Пример просмотра информации о запуске конкретного launcher
