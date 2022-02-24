@@ -47,6 +47,7 @@ gradle clean test
 
 ### Итоговые dashboard по результатам сборок
 ![This is an image](/design/images/dashboard_overview.png)
+### Аналитическая dashboard с разбивкой кейсов по Features и Stories
 ![This is an image](/design/images/statistics_dashboard.png)
 ### Список кейсов в отчёте Allure с разбивкой по Features и Stories
 ![This is an image](/design/images/allure_report_features2.png)
