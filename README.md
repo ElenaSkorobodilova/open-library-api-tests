@@ -1,10 +1,10 @@
 # open-library-api-tests
-![This is an image](/icons/Java.png)![This is an image](/icons/Gradle.png)![This is an image](/icons/Rest-Assured.png)![This is an image](/icons/Intelij_IDEA.png)![This is an image](/icons/JUnit5.png)![This is an image](/icons/Jenkins.png)![This is an image](/icons/Allure_Report.png)![This is an image](/icons/AllureTestOps.png)![This is an image](/icons/Telegram.png)
+![This is an image](/design/icons/Java.png)![This is an image](/design/icons/Gradle.png)![This is an image](/design/icons/Rest-Assured.png)![This is an image](/design/icons/Intelij_IDEA.png)![This is an image](/design/icons/JUnit5.png)![This is an image](/design/icons/Jenkins.png)![This is an image](/design/icons/Allure_Report.png)![This is an image](/design/icons/AllureTestOps.png)![This is an image](/design/icons/Telegram.png)
 ## Описание проекта
 Учебный проект реализации автотестирования **Rest Api**.<br/>
 >В качестве объекта тестирования выбран сайт https://openlibrary.org/ с открытым api.<br/>
 
-![This is an image](/images/open-library.png)
+![This is an image](/design/images/open-library.png)
 
 Сайт позволяет получать информацию о книгах по автору, названию, теме, году издания, издателю, языках публикаций и прочем.
 
@@ -38,7 +38,7 @@ gradle clean test
 ## Запуск автотестов выполняется на сервере Jenkins
 > <a target="_blank" href="https://jenkins.autotests.cloud/job/09-ElenaSeversk-open-library-api-tests/">Ссылка на проект в Jenkins</a>
 
-![This is an image](/images/jenkins.png)
+![This is an image](/design/images/jenkins.png)
 
 Для запуска тестов выбрать пункт **"Собрать сейчас"**
 
@@ -46,18 +46,18 @@ gradle clean test
 > <a target="_blank" href="https://allure.autotests.cloud/project/1021/dashboards">Сссылка на проект в AllureTestOps</a> (запрос доступа admin@qa.guru)
 
 ### Итоговые dashboard по результатам сборок
-![This is an image](/images/dashboard_overview.png)
-![This is an image](/images/statistics_dashboard.png)
+![This is an image](/design/images/dashboard_overview.png)
+![This is an image](/design/images/statistics_dashboard.png)
 ### Список кейсов в отчёте Allure с разбивкой по Features и Stories
-![This is an image](/images/allure_report_features2.png)
+![This is an image](/design/images/allure_report_features2.png)
 ### Пример просмотра информации о запуске конкретного launcher
-![This is an image](/images/allure_dashboard_summary.png)
-![This is an image](/images/grafics.png)
-![This is an image](/images/timeline.png)
-![This is an image](/images/launcer_result.png)
+![This is an image](/design/images/allure_dashboard_summary.png)
+![This is an image](/design/images/grafics.png)
+![This is an image](/design/images/timeline.png)
+![This is an image](/design/images/launcer_result.png)
 
 ## Настроено автоматическое оповещение о результатах сборки Jenkins в Telegram-бот
-![This is an image](/images/bot.png)
+![This is an image](/design/images/bot.png)
 
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
