@@ -219,7 +219,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов все авторы с фамилией Lukyanenko", () ->
                 Assertions.assertTrue(data.getDocs().stream().allMatch(libraryDoc ->
-                                libraryDoc.getAuthor_name().stream().allMatch(s -> s.contains("Lukyanenko"))),
+                                libraryDoc.getAuthorName().stream().allMatch(s -> s.contains("Lukyanenko"))),
                         "Ошибка. В выборке есть авторы с другой фамилией"));
     }
 
@@ -238,7 +238,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть авторы с фамилией Lukyanenko", () ->
                 Assertions.assertTrue(data.getDocs().stream().anyMatch(libraryDoc ->
-                                libraryDoc.getAuthor_name().stream().anyMatch(s -> s.contains("Lukyanenko"))),
+                                libraryDoc.getAuthorName().stream().anyMatch(s -> s.contains("Lukyanenko"))),
                         "Ошибка. В выборке есть документы авторов с другой фамилией"));
     }
 
@@ -257,7 +257,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов все авторы с ФИО Sergei Lukyanenko", () ->
                 Assertions.assertTrue(data.getDocs().stream().anyMatch(libraryDoc ->
-                                libraryDoc.getAuthor_name().stream().anyMatch(s -> s.equals("Sergei Lukyanenko"))),
+                                libraryDoc.getAuthorName().stream().anyMatch(s -> s.equals("Sergei Lukyanenko"))),
                         "Ошибка. В выборке есть авторы с другой фамилией"));
     }
 
@@ -276,7 +276,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов все авторы с ФИО Sergei Lukyanenko", () ->
                 Assertions.assertTrue(data.getDocs().stream().anyMatch(libraryDoc ->
-                                libraryDoc.getAuthor_name().stream().anyMatch(s -> s.equals("Sergei Lukyanenko"))),
+                                libraryDoc.getAuthorName().stream().anyMatch(s -> s.equals("Sergei Lukyanenko"))),
                         "Ошибка. В выборке есть авторы с другой фамилией"));
     }
 
