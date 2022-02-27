@@ -1,5 +1,6 @@
 import io.qameta.allure.*;
 import model.FullResponse;
+import model.LibraryDoc;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -67,8 +68,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть книги об Одри Хепберн", () ->
                 assertThat(data.getDocs())
-                        .filteredOn(libraryDoc -> libraryDoc.getTitle()
-                                .contains("Hepburn"))
+                        .filteredOn(libraryDoc -> libraryDoc.getTitle().contains("Hepburn"))
                         .hasSizeGreaterThan(0)
                         .withFailMessage("Ошибка. В выборке нет книг об Одри Хепберн"));
     }
@@ -85,8 +85,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть есть наша любимая книга", () ->
                 assertThat(data.getDocs())
-                        .filteredOn(libraryDoc -> libraryDoc.getTitle()
-                                .equals(favoriteBook))
+                        .filteredOn(libraryDoc -> libraryDoc.getTitle().equals(favoriteBook))
                         .hasSizeGreaterThan(0)
                         .withFailMessage("Ошибка. Книга не найдена!"));
     }
@@ -103,8 +102,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть есть книги о Риме", () ->
                 assertThat(data.getDocs())
-                        .filteredOn(libraryDoc -> libraryDoc.getTitle()
-                                .contains("Rome"))
+                        .filteredOn(libraryDoc -> libraryDoc.getTitle().contains("Rome"))
                         .hasSizeGreaterThan(0)
                         .withFailMessage("Ошибка. В выборке нет книг о Риме"));
 
@@ -143,8 +141,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть книги о танго", () ->
                 assertThat(data.getDocs())
-                        .filteredOn(libraryDoc -> libraryDoc.getTitle()
-                                .contains("tango"))
+                        .filteredOn(libraryDoc -> libraryDoc.getTitle().contains("tango"))
                         .hasSizeGreaterThan(0)
                         .withFailMessage("Ошибка. В выборке нет книг о танго"));
     }
@@ -162,8 +159,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть наша любимая книга", () ->
                 assertThat(data.getDocs())
-                        .filteredOn(libraryDoc -> libraryDoc.getTitle()
-                                .equals(favoriteBook))
+                        .filteredOn(libraryDoc -> libraryDoc.getTitle().equals(favoriteBook))
                         .hasSizeGreaterThan(0)
                         .withFailMessage("Ошибка. Книга не найдена!"));
     }
@@ -180,8 +176,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть наша любимая книга", () ->
                 assertThat(data.getDocs())
-                        .filteredOn(libraryDoc -> libraryDoc.getTitle()
-                                .equals(favoriteBook))
+                        .filteredOn(libraryDoc -> libraryDoc.getTitle().equals(favoriteBook))
                         .hasSizeGreaterThan(0)
                         .withFailMessage("Ошибка. Книга не найдена!"));
     }
@@ -198,8 +193,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть наша любимая книга", () ->
                 assertThat(data.getDocs())
-                        .filteredOn(libraryDoc -> libraryDoc.getTitle()
-                                .equals(favoriteBook))
+                        .filteredOn(libraryDoc -> libraryDoc.getTitle().equals(favoriteBook))
                         .hasSizeGreaterThan(0)
                         .withFailMessage("Ошибка. Книга не найдена!"));
     }
@@ -299,8 +293,7 @@ public class RestApiTests {
 
         step("Проверяем, что в списке результатов есть наша любимая книга", () ->
                 assertThat(data.getDocs())
-                        .filteredOn(libraryDoc -> libraryDoc.getTitle()
-                                .equals(favoriteBook))
+                        .filteredOn(libraryDoc -> libraryDoc.getTitle().equals(favoriteBook))
                         .hasSizeGreaterThan(0)
                         .withFailMessage("Ошибка. Книга не найдена!"));
     }
